@@ -167,6 +167,13 @@ div{
 }
 	}
 }
+.rectangle-image-size{
+	-webkit-transition-duration: 0.8s;
+	-webkit-transition-property: -webkit-transform;
+	&:hover{
+		-webkit-transform: rotate(360deg);
+	}
+}
 
 @media screen and (max-width:670px){
 	.rectangle-image-size{
@@ -420,6 +427,9 @@ footer{
 	height: auto; 
 	margin-left: 6%;
 	padding: 25px 25px;
+}
+.margin{
+	margin: 0 auto;
 }
 @media screen and (min-width:1265px) and (max-width: 1365px){
 	.whatsnew-link{
