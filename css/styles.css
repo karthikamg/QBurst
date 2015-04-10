@@ -444,37 +444,38 @@ footer div div span {
   height: auto;
   margin: 0 auto;
   text-align: center;
+  padding: 30px;
 }
 
-/* line 404, ../resources/scss/styles.scss */
+/* line 405, ../resources/scss/styles.scss */
 .section4 {
   padding-top: 95px;
 }
 
-/* line 407, ../resources/scss/styles.scss */
+/* line 408, ../resources/scss/styles.scss */
 .sec3-text-size {
   margin: 0 auto;
   width: 92%;
   height: 70px;
 }
 
-/* line 412, ../resources/scss/styles.scss */
+/* line 413, ../resources/scss/styles.scss */
 .whatsnew-image-size {
   width: 60px;
   height: 60px;
 }
 
-/* line 416, ../resources/scss/styles.scss */
+/* line 417, ../resources/scss/styles.scss */
 .watsnew-linkdiv-size {
   display: table;
   width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin-left: 6%;
   padding: 25px 25px;
 }
 
 @media screen and (min-width: 1265px) and (max-width: 1365px) {
-  /* line 424, ../resources/scss/styles.scss */
+  /* line 425, ../resources/scss/styles.scss */
   .whatsnew-link {
     width: 320px;
     height: 120px;
@@ -487,7 +488,7 @@ footer div div span {
   }
 }
 @media screen and (min-width: 1365px) {
-  /* line 436, ../resources/scss/styles.scss */
+  /* line 437, ../resources/scss/styles.scss */
   .whatsnew-link {
     width: 320px;
     height: 120px;
@@ -500,7 +501,7 @@ footer div div span {
   }
 }
 @media screen and (max-width: 1265px) and (min-width: 1046px) {
-  /* line 448, ../resources/scss/styles.scss */
+  /* line 449, ../resources/scss/styles.scss */
   .whatsnew-link {
     width: 310px;
     height: 120px;
@@ -514,7 +515,7 @@ footer div div span {
   }
 }
 @media screen and (max-width: 1046px) and (min-width: 890px) {
-  /* line 461, ../resources/scss/styles.scss */
+  /* line 462, ../resources/scss/styles.scss */
   .whatsnew-link {
     width: 250px;
     height: 120px;
@@ -528,7 +529,7 @@ footer div div span {
   }
 }
 @media screen and (max-width: 890px) and (min-width: 650px) {
-  /* line 474, ../resources/scss/styles.scss */
+  /* line 475, ../resources/scss/styles.scss */
   .whatsnew-link {
     width: 200px;
     height: 120px;
@@ -542,7 +543,7 @@ footer div div span {
   }
 }
 @media screen and (max-width: 650px) {
-  /* line 487, ../resources/scss/styles.scss */
+  /* line 488, ../resources/scss/styles.scss */
   .whatsnew-link {
     width: 220px;
     height: 100px;
@@ -555,7 +556,7 @@ footer div div span {
   }
 }
 @media screen and (min-width: 1265px) {
-  /* line 499, ../resources/scss/styles.scss */
+  /* line 500, ../resources/scss/styles.scss */
   .whatsnew-text {
     color: #444;
     margin-left: 15px;
@@ -563,7 +564,7 @@ footer div div span {
   }
 }
 @media screen and (max-width: 1265px) and (min-width: 1046px) {
-  /* line 507, ../resources/scss/styles.scss */
+  /* line 508, ../resources/scss/styles.scss */
   .whatsnew-text {
     vertical-align: middle;
     color: #444;
@@ -572,7 +573,7 @@ footer div div span {
   }
 }
 @media screen and (max-width: 1046px) {
-  /* line 515, ../resources/scss/styles.scss */
+  /* line 516, ../resources/scss/styles.scss */
   .whatsnew-text {
     vertical-align: middle;
     color: #444;
@@ -580,12 +581,12 @@ footer div div span {
     font-size: 20px;
   }
 }
-/* line 524, ../resources/scss/styles.scss */
+/* line 525, ../resources/scss/styles.scss */
 div a div:hover {
   border-color: #ff584e;
 }
 
-/* line 530, ../resources/scss/styles.scss */
+/* line 531, ../resources/scss/styles.scss */
 a input:hover {
   background-color: #ff584e;
   color: white;
