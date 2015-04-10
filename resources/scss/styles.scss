@@ -12,6 +12,7 @@ body{
 }
 a{
 	text-decoration: none;
+	color: black;
 }
 h1{
 	font-size: 45px;
@@ -102,7 +103,7 @@ div{
 		width: 100%;
 		overflow: hidden;
 		float: left;
-		height:80px;
+		height:65px;
 	}
 }
 
@@ -167,28 +168,47 @@ div{
 	}
 }
 
+@media screen and (max-width:670px){
+	.rectangle-image-size{
+	width: 50px;
+	height: 50px;
+	margin: 0 15px;
+	text-align: center;	
+	float: left;
+	}
+}
+@media screen and (min-width:670px){
+	.rectangle-image-size{
+	width: 50px;
+	height: 50px;
+	margin: 0 70px;
+	text-align: center;	
+	}
+}
+
 @media screen and (min-width:1115px){
 	.rectangle-text-size{
 	margin: auto;
 	height: 85px;
 	width:90%;
-	margin-top: 70px;
+	margin-top: 50px;
 	text-align: center;
 }	
 }
 @media screen and (max-width:1115px){
 	.rectangle-text-size{
 	margin: 20px auto;
-	height: 85px;
+	height: auto;
 	width:100%;
+	text-align: center;
    }
 }
-section{
 		@media screen and (min-width:1115px) and (max-width:1310px){
 		.section1-rectangle-size{
 		margin: 0 auto;
 		height:370px;
 		max-width: 100%;
+		padding-left: 13%;
 	}
 }
 	@media screen and (min-width:1310px){
@@ -196,9 +216,18 @@ section{
 		margin: 0 auto;
 		height:370px;
 		max-width: 90%;
+		padding-left: 13%;
 	}
 }
+@media screen and (max-width:1115px){
+		.section1-rectangle-size{
+		margin: 0 auto;
+		height:290px;
+		max-width: 90%;
+		padding-left: 13%;
+	}
 }
+
 
 @media screen and (max-width:1190px){
 	.section1{
@@ -230,7 +259,7 @@ section{
 	background-color: $color-white;
 }
 .section1-harness{
-	width: 92%;
+	width: 100%;
 	margin:0 auto;
 }
 // .section1-rectangle-size{
@@ -241,17 +270,10 @@ section{
 .margin-top50{
 	margin-top: 50px;
 }
-.rectangle-image-size{
-	width: 50px;
-	height: 50px;
-	margin: 0 15px;
-	text-align: center;
-	float: left;
-}
 .footer-text{
 	color: $color-black;
     font-size: 18px;
-    line-height:1;
+    line-height:1.5;
 }
 .client-image-size{
 	width: 75px;
@@ -339,7 +361,7 @@ section{
 ul{
 	li{
 		span{
-				background-image: url("C:/Users/Karthika/Projects - Copy/Qburst/resources/images/featuredClients.png");
+				background-image: url("../resources/images/featuredClients.png");
 				background-repeat: no-repeat;
 				margin: 0 auto;
 				display: block;
@@ -395,10 +417,12 @@ footer{
 	display: table; 
 	width: 100%;
 	height: auto; 
+	margin: 0 auto;
+	padding: 25px 25px;
 }
-@media screen and (min-width:1265px){
+@media screen and (min-width:1265px) and (max-width: 1365px){
 	.whatsnew-link{
-	width: 380px;
+	width: 320px;
 	height: 120px;
 	margin-left: 50px;
 	background-color: $color-grey;
@@ -408,7 +432,18 @@ footer{
 	text-align: center;
 }
 }
-
+@media screen and (min-width:1365px){
+	.whatsnew-link{
+	width: 320px;
+	height: 120px;
+	margin-left: 50px;
+	background-color: $color-grey;
+	padding-top: 30px;
+	float: left;
+	border: 3px solid lightgray;
+	text-align: center;
+}
+}
 @media screen and (max-width:1265px) and (min-width: 1046px) {
 	.whatsnew-link{
 	width: 310px;
@@ -462,7 +497,6 @@ footer{
 }
 @media screen and (min-width:1265px){
 	.whatsnew-text{
-	vertical-align: middle;
 	color: #444;
 	margin-left: 15px;
 	font-size: 45px;
@@ -485,6 +519,16 @@ footer{
 	font-size: 20px;
 }
 }
-a:hover{
-	background-color: white;
+div{
+	a{
+		div:hover{
+			border-color: $color-orange;
+		}		
+	}
+}
+a{
+	input:hover{
+		background-color: $color-orange;
+		color: white;
+	}
 }
